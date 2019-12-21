@@ -1,4 +1,143 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MASA_Library:SC_19-20 J1
+U 1 1 5DFD7631
+P 3500 2050
+F 0 "J1" H 3500 2215 50  0000 C CNN
+F 1 "SC_19-20" H 3500 2124 50  0000 C CNN
+F 2 "MASA_Library:Stack_Connector_2019_2020" H 3250 2200 50  0001 L CNN
+F 3 "" H 3250 2700 50  0001 L CNN
+F 4 "Conn Shrouded Header HDR 40 POS 1.27mm Solder ST SMD T/R" H 3250 2600 50  0001 L CNN "Description"
+F 5 "11.35" H 3250 2400 50  0001 L CNN "Height"
+F 6 "SAMTEC" H 3250 2300 50  0001 L CNN "Manufacturer_Name"
+F 7 "TFC-120-32-F-D-A-K-TR" H 3250 2500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DFDA903
+P 2850 2150
+F 0 "#PWR0101" H 2850 1900 50  0001 C CNN
+F 1 "GND" V 2855 2022 50  0000 R CNN
+F 2 "" H 2850 2150 50  0001 C CNN
+F 3 "" H 2850 2150 50  0001 C CNN
+	1    2850 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DFDB255
+P 2850 2350
+F 0 "#PWR0102" H 2850 2100 50  0001 C CNN
+F 1 "GND" V 2855 2222 50  0000 R CNN
+F 2 "" H 2850 2350 50  0001 C CNN
+F 3 "" H 2850 2350 50  0001 C CNN
+	1    2850 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DFDBEC5
+P 4150 2250
+F 0 "#PWR0103" H 4150 2000 50  0001 C CNN
+F 1 "GND" V 4155 2122 50  0000 R CNN
+F 2 "" H 4150 2250 50  0001 C CNN
+F 3 "" H 4150 2250 50  0001 C CNN
+	1    4150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5DFDC70F
+P 4150 3050
+F 0 "#PWR0104" H 4150 2800 50  0001 C CNN
+F 1 "GND" V 4155 2922 50  0000 R CNN
+F 2 "" H 4150 3050 50  0001 C CNN
+F 3 "" H 4150 3050 50  0001 C CNN
+	1    4150 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5DFDD019
+P 2850 3050
+F 0 "#PWR0105" H 2850 2800 50  0001 C CNN
+F 1 "GND" V 2855 2922 50  0000 R CNN
+F 2 "" H 2850 3050 50  0001 C CNN
+F 3 "" H 2850 3050 50  0001 C CNN
+	1    2850 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5DFDD67F
+P 4150 3850
+F 0 "#PWR0106" H 4150 3600 50  0001 C CNN
+F 1 "GND" V 4155 3722 50  0000 R CNN
+F 2 "" H 4150 3850 50  0001 C CNN
+F 3 "" H 4150 3850 50  0001 C CNN
+	1    4150 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5DFDDD0D
+P 4150 4050
+F 0 "#PWR0107" H 4150 3800 50  0001 C CNN
+F 1 "GND" V 4155 3922 50  0000 R CNN
+F 2 "" H 4150 4050 50  0001 C CNN
+F 3 "" H 4150 4050 50  0001 C CNN
+	1    4150 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5DFDDF0B
+P 2850 3950
+F 0 "#PWR0108" H 2850 3700 50  0001 C CNN
+F 1 "GND" V 2855 3822 50  0000 R CNN
+F 2 "" H 2850 3950 50  0001 C CNN
+F 3 "" H 2850 3950 50  0001 C CNN
+	1    2850 3950
+	0    1    1    0   
+$EndComp
+Text GLabel 2850 2250 0    50   BiDi ~ 0
+3V3
+Text GLabel 2850 2450 0    50   BiDi ~ 0
+3V3
+Text GLabel 4150 2150 2    50   BiDi ~ 0
+3V3
+Text GLabel 4150 2350 2    50   BiDi ~ 0
+3V3
+Text GLabel 2850 3850 0    50   BiDi ~ 0
+5V0
+Text GLabel 2850 4050 0    50   BiDi ~ 0
+5V0
+Text GLabel 4150 3950 2    50   BiDi ~ 0
+5V0
+Text GLabel 4150 3750 2    50   BiDi ~ 0
+5V0
+Text GLabel 2850 3150 0    50   BiDi ~ 0
+CAN_H
+Text GLabel 2850 3250 0    50   BiDi ~ 0
+CAN_L
+Text GLabel 2850 3350 0    50   BiDi ~ 0
+UART1_TX
+Text GLabel 2850 3450 0    50   BiDi ~ 0
+UART1_RX
 $EndSCHEMATC
