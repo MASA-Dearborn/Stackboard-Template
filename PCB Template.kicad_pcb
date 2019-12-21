@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
+    (drawings 18)
     (tracks 0)
     (zones 0)
     (modules 1)
@@ -301,8 +301,12 @@
     )
   )
 
+  (gr_arc (start 152.4 127) (end 190.1444 121.92) (angle -344.6693046) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 177.8 132.08) (end 190.1444 132.08) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 177.8 121.92) (end 177.8 132.08) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 190.1444 121.92) (end 177.8 121.92) (layer Edge.Cuts) (width 0.05))
   (dimension 76.2 (width 0.15) (layer Dwgs.User) (tstamp 5DFD86B1)
-    (gr_text "3.0000 in" (at 152.4 171.48) (layer Dwgs.User) (tstamp 5DFD86B2)
+    (gr_text "3.0000 in" (at 152.4 171.48) (layer Dwgs.User) (tstamp 5DFD86B1)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 190.5 127) (xy 190.5 170.766421)))
@@ -314,7 +318,7 @@
     (arrow2b (pts (xy 114.3 170.18) (xy 115.426504 169.593579)))
   )
   (dimension 50.8 (width 0.15) (layer Dwgs.User) (tstamp 5DFD86B7)
-    (gr_text "2.0000 in" (at 152.4 161.828) (layer Dwgs.User) (tstamp 5DFD86B8)
+    (gr_text "2.0000 in" (at 152.4 161.828) (layer Dwgs.User) (tstamp 5DFD86B7)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 177.8 127) (xy 177.8 161.114421)))
@@ -338,7 +342,7 @@
     (arrow2b (pts (xy 134.62 98.044) (xy 135.746504 97.457579)))
   )
   (dimension 35.56 (width 0.15) (layer Dwgs.User) (tstamp 5DFD823C)
-    (gr_text "1.4000 in" (at 122.652 127 90) (layer Dwgs.User) (tstamp 5DFD823D)
+    (gr_text "1.4000 in" (at 122.652 127 90) (layer Dwgs.User) (tstamp 5DFD823C)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 134.62 109.22) (xy 123.365579 109.22)))
@@ -359,6 +363,5 @@
   (gr_line (start 152.4 127) (end 170.18 144.78) (layer Dwgs.User) (width 0.15) (tstamp 5DFD8539))
   (gr_circle (center 152.4 127) (end 152.4 101.6) (layer Dwgs.User) (width 0.15))
   (gr_circle (center 152.4 127) (end 149.86 127) (layer Dwgs.User) (width 0.15) (tstamp 5DFD83C1))
-  (gr_circle (center 152.4 127) (end 152.4 165.1) (layer Edge.Cuts) (width 0.05))
 
 )
